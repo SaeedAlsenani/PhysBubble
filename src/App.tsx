@@ -44,8 +44,8 @@ const App = () => {
 
     // Define your API base URL
     // IMPORTANT: Ensure your physbubble-bot API is running on this address (e.g., http://localhost:8000)
-    const API_BASE_URL = 'http://45.61.150.204:8000'; // هذا هو العنوان الصحيح الآن
-
+  
+		const API_BASE_URL = '/api'; // سيتم إعادة توجيهه بواسطة Vercel 
     // Function to fetch gift data from your FastAPI backend
     const fetchGiftsData = async () => {
         try {
